@@ -17,7 +17,7 @@ A Conditional GAN-Based architecture is used in this  task for solving the probl
 Generator: The generator network takes a grayscale image as input and tries to generate a colored version of it. The goal of the generator is to produce images that are as realistic as possible.
 
 Discriminator: The discriminator network takes an image (either real colored image or the generated colored image) and tries to distinguish between the real and the generated images. The discriminator's goal is to correctly classify the images as real or fake.
-
+ 
 <div align="center">
     <img src="model.jpg" alt="Logo" >
 <h3 align="center"> proposed method architecture</h3>
