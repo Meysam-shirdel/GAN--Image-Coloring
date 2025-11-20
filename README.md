@@ -13,7 +13,7 @@ Image coloring using Generative Adversarial Networks (GANs) is a technique where
 A Conditional GAN-Based architecture is used in this  task for solving the problem. We add a condition to the inputs of Generator and Discriminator. 
 
 ### Overview of GAN Architecture
-  
+   
 Generator: The generator network takes a grayscale image as input and tries to generate a colored version of it. The goal of the generator is to produce images that are as realistic as possible.
 
 Discriminator: The discriminator network takes an image (either real colored image or the generated colored image) and tries to distinguish between the real and the generated images. The discriminator's goal is to correctly classify the images as real or fake.
